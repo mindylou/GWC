@@ -59,5 +59,14 @@ class HauntedHouse():
         Calls makeSpookySound for each resident of the Haunted House.
         """
         for monster in residents:
-            monster.makeSpookySound()
+            monster.makeSpookySound("roar")
+            
+
+monster1 = Monster("Sully", 100, 200)
+print(monster1.getScarinessLevel())
+
+monster2 = Monster("Mike", 50, 100)
+monster3 = Monster("No name", 123, 43.3)
+haunted = HauntedHouse("100 Spooky Lane", [monster1, monster2, monster3])
+haunted.spook()
 
