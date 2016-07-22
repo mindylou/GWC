@@ -1,0 +1,20 @@
+h3 {
+	font-family: Arial, sans serif;
+	font-size: 20px;
+}
+
+p {
+	color: #6600ff;
+}
+
+#something {
+	color: red;
+}
+
+body {
+	background-color: yellow;
+}
+
+*{
+	font-family: Impact;
+}
